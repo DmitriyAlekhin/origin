@@ -44,3 +44,5 @@ git branch -d [nema] #Удаляет ветку
 git marge [nema] 	#Слиянье веток
 git log --graph 	#log в виде графа
 ```
+
+**тест**
