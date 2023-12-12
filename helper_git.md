@@ -54,3 +54,16 @@ git log --graph 	#log в виде графа
 
 
 ## Урок 3 сохранить на gitHab репозиторий
+
+> Initial commit - первичная фиксациия коммита <br>
+> READNME.md - фаил для описание изменений сделанных в чужом репозитории.
+
+```sh
+git remote add <name> <URL> # Для работы с удалёным репозиторием
+							# origin - <nema> по умолчанию
+git gush -u <name> main 	# Залить на сайт файлы с компьютера
+							#origin <name>
+git push					# Загрузить всё на gitHab
+git pull					# Стянуть всё с gitHab
+git clone <URL> 			#Клон с сайта
+```
